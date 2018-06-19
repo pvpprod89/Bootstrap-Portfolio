@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <title>About | Parth Patel</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
   <header id="navhead">
-    <div class="container">
+    <div class="container-nav-left">
       <a href="index.html" id="logo">Parth</a>
       <nav>
         <a href="index.html">About</a>
@@ -21,26 +23,79 @@
     </div>
   </header>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-      <img src="./assets/images/Parth.jpg" class="parth-picture" alt="Picture of Parth" width="250" height="220">
-      <p>Hey there! My name is Parth and I am a
-        <b>Full Stack Javascript Developer.</b> I love coding and I'm interested in Web Development and bitcoin Technology.</p>
-      <p>
-        I want to build awesome responsive websites including all kind of websites that can be used for e-commerce, personal, for
-        small business and large business peoples etc.
-      </p>
-      <p>Other than
-        <strong>Coding</strong> i love to play flute, travel, and making new friends. In my free time I usually watch movies, hangout
-        with friends or play some games. I hate reading :) </p>
-    </section>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-6">
+        <div class="col1-primary">
+
+          <div class="col1-heading">
+            <h3 class="col1-title">About Me</h3>
+          </div>
+
+          <div class="parth-picture-panel-body">
+            <img id="bio-image" class="parth-picture" alt="Responsive image" src="assets/images/Parth.jpg" alt="parth-picture">
+
+            <p>Hey there! My name is Parth and I am a
+              <b>Full Stack Javascript Developer.</b> I love coding and I'm interested in Web Development and bitcoin Technology.</p>
+
+            <p>I want to build awesome responsive websites including all kind of websites that can be used for e-commerce, personal,
+              for small business and large business peoples etc.</p>
+
+            <p>Other than
+              <strong>Coding</strong> i love to play flute, travel, and making new friends. In my free time I usually watch movies,
+              hangout with friends or play some games. I hate reading :)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+      <div class="col-md-3">
+        <div class="panel-panel-primary" id="sidebar">
+
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect</h3>
+          </div>
+
+          <div class="connect-panel-body">
+            <div class="row">
+              <div class="col-md-4">
+                <a href="https://github.com/pvpprod89" target="_blank" class="thumbnail">
+                  <img src="assets/images/github-256-black.png" alt="GitHub" class="img-responsive-social">
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/patelparth89/" target="_blank" class="thumbnail">
+                  <img src="assets/images/linkedin.png" alt="LinkedIn" class="img-responsive-social">
+                </a>
+              </div>
+
+              <div class="col-md-4">
+                <a href="https://stackoverflow.com/users/9708366/parth-patel" target="_blank" class="thumbnail">
+                  <img src="assets/images/stackoverflow.png" alt="stackoverflow" class="img-responsive-social">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+      </div>
+
+    </div>
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy 2018 Parth;
+  <footer class="footer">
+    <div class="container" id="footer-text">
+      <p>Copyright &copy 2018 Parth</p>
     </div>
   </footer>
 </body>
